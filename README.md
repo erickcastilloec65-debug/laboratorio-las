@@ -72,10 +72,10 @@ Cada escenario consiste en un inicio de sesión correcto, tres intentos fallidos
 
 | Prueba | Usuario    | MTTD (s) | MTTR (s) |
 | ------ | ---------- | -------- | -------- |
-| 1      | Vladimir   | 2.0      | 1.0      |
-| 2      | Damaris    | 3.0      | 1.0      |
-| 3      | usuario_01 | 3.0      | 1.0      |
+| 1      | usuario_01 | 13.0     | 22.0     |
+| 2      | usuario_02 | 10.0     | 43.0     |
+| 3      | usuario_03 | 10.0     | 13.0     |
 
-**MTTD promedio** = (2.0 + 3.0 + 3.0) / 3 = **2.67 segundos**
+**MTTD promedio** = (13.0 + 10.0 + 10.0) / 3 = **11.0 segundos**
 
-**MTTR promedio** = (1.0 + 1.0 + 1.0) / 3 = **1.0 segundo**
+**MTTR promedio** = (33.0 + 43.0 + 13.0) / 3 = **29.67 segundo**
